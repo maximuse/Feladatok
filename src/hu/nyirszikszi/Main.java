@@ -12,7 +12,7 @@ public class Main {
 				"Kilépés",
 				"Jelenítse meg a konzolon a \"Holnap \"jo\" leszek!\" üzenetet!",
 				"Kérje be a konzolról a felhasználó nevét, majd írja ki a következő jókívánságot: \"Kedves X! Sikeres Java programozást!\"",
-				"Kérje be egy hasáb három élének hosszúságát, majd írja ki a hasáb felszínét és térfogatát!",
+				"Kérje be egy téglalap alapú hasáb három élének hosszúságát, majd írja ki a felszínét és térfogatát!",
 				"Kérje be egy gömb sugarát, majd írja ki a gömb felszínét és térfogatát!",
 				"Kérjen be egy pénzösszeget, majd írja ki, hogy milyen címletekben lehet minimális számú pénzzel kifizetni úgy, hogy 20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5 címletek állnak rendelkezésre!",
 				"Kérje be a főnöke fizetését, aztán a sajátját. Hasonlítsa össze a két fizetés: írjon ki egy-egy megjegyzést, ha a főnöke fizetése nagyobb, ha a sajátja nagyobb, illetve ha egyenlő!",

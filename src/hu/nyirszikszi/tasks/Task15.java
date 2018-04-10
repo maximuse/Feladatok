@@ -22,16 +22,19 @@ public class Task15 {
 			
 			if (bedob(bedob) != 0) {
 				bedobott += bedob;
-				System.out.println("Bent van:\t" + bedobott);
+				System.out.println("Bent van:\t" + bedobott + "\nHiányzik:\t" + (bedobando - bedobott));
 			}
 			else {
 				System.out.println("Érvénytelen címlet!");
 			}
 		}
-		while (bedobott <= bedobando);
+		while (bedobott < bedobando);
 		
-		if (bedobott <= bedobando) {
+		if (bedobott > bedobando) {
 			System.out.println("Visszajáró:\t" + (bedobott - bedobando));
+		}
+		else if (bedobott == bedobando) {
+			System.out.println("Egészségedre!");
 		}
 	}
 	
