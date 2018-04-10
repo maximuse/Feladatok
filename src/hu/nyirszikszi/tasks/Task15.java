@@ -34,7 +34,7 @@ public class Task15 {
 			System.out.println("Visszajáró:\t" + (bedobott - bedobando));
 		}
 		else if (bedobott == bedobando) {
-			System.out.println("Egészségedre!");
+			System.out.println("\nEgészségedre!");
 		}
 	}
 	
