@@ -22,7 +22,10 @@ public class Task15 {
 			
 			if (bedob(bedob) != 0) {
 				bedobott += bedob;
-				System.out.println("Bent van:\t" + bedobott + "\nHiányzik:\t" + (bedobando - bedobott));
+				System.out.println("Bent van:\t" + bedobott);
+				if((bedobando - bedobott) > 0) {
+					System.out.println("Hiányzik:\t" + (bedobando - bedobott));
+				}
 			}
 			else {
 				System.out.println("Érvénytelen címlet!");
@@ -31,11 +34,10 @@ public class Task15 {
 		while (bedobott < bedobando);
 		
 		if (bedobott > bedobando) {
-			System.out.println("Visszajáró:\t" + (bedobott - bedobando));
+			System.out.println("\nVisszajáró:\t" + (bedobott - bedobando));
 		}
-		else if (bedobott == bedobando) {
-			System.out.println("\nEgészségedre!");
-		}
+		
+		System.out.println("\nEgészségedre!");
 	}
 	
 	private int bedob(int erme) {
